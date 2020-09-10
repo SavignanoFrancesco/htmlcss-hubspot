@@ -4,21 +4,99 @@
     box-sizing: border-box;
 }
 
+/* clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+} */
+
 .wrapper{
     width: 100vw;
 }
 
 .container{
     width: 70%;
-    height: 500px;
+    /* height: 500px; */
     margin: auto;
     background-color: rgba(255, 0, 255, 0.5);
 }
 
 .fixed-header{
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     background-color: #ecf2f9;
+}
+
+.left-hf{
+    width: 30%;
+    /* height: 100px; */
+    float: left;
+    background-color: red;
+}
+
+.language{
+    float: left;
+    padding: 40px 35px;
+}
+
+.contact-sales{
+    float: left;
+    padding: 40px 35px;
+    border-left: 1px solid lightgrey;
+}
+
+.left-hf::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.right-hf{
+    width: 30%;
+    height: 100px;
+    float: right;
+    background-color: red;
+}
+
+.search-icon{
+    float: left;
+    padding: 40px 25px;
+}
+
+.login{
+    float: left;
+    padding: 40px 10px;
+}
+
+.login a{
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: orange;
+}
+
+.hubspotfree{
+    float: left;
+    padding: 40px 35px;
+}
+
+.hubspotfree a{
+    padding: 5px 1px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.right-hf::after{
+    content: '';
+    display: table;
+    clear: both;
+    }
+
+.fixed-header::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .header1{
