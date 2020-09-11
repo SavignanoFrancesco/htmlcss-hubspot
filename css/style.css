@@ -1,3 +1,4 @@
+/* GENERAL CSS CODE */
 *{
     margin: 0;
     padding: 0;
@@ -22,16 +23,28 @@
     /* background-color: rgba(255, 0, 255, 0.5); */
 }
 
+/* FIXED HEADER */
 .fixed-header{
     width: 100%;
     background-color: #ecf2f9;
     position: fixed;
 }
 
-.left-hf{
+.fixed-header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* LEFT SIDE FIXED HEADER */
+.left-fh{
     width: 30%;
     float: left;
-    /* background-color: red; */
+}
+
+.left-fh::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .language{
@@ -67,17 +80,10 @@
     text-decoration: none;
 }
 
-.left-hf::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.right-hf{
-    /* background-color: green; */
+/* RIGHT SIDE FIXED HEADER */
+.right-fh{
     width: 30%;
     float: right;
-    /* background-color: red; */
 }
 
 .search-icon{
@@ -127,18 +133,13 @@
     border: 1px solid rgba(253, 136, 0, 0.3);
 }
 
-.right-hf::after{
+.right-fh::after{
     content: '';
     display: table;
     clear: both;
     }
 
-.fixed-header::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
+/* HEADER1 */
 .header1{
     width: 100%;
     padding-top: 78px;
@@ -154,11 +155,11 @@
     clear: both;
 }
 
+/* LEFTSIDE HEADER1 */
 .left-logo{
     width: 30%;
     padding:22px 0;
     float: left;
-    /* background-color: green; */
 }
 
 .left-logo img{
@@ -166,9 +167,9 @@
     height: 30px;
 }
 
+/* RIGHTSIDE HEADER1 */
 .right-menu{
     float: right;
-    /* background-color: green; */
     font-weight: bold;
     display: inline-block;
 }
@@ -193,6 +194,8 @@
         background-color: #48489D;
 }
 
+
+/* HEADER2 */
 .h2{
     width: 100%;
     padding: 25px 12px;
@@ -208,6 +211,7 @@
     color: white;
 }
 
+/* MAIN1 */
 .main1{
     width: 100%;
     /* height: 750px; */
@@ -218,6 +222,7 @@
     min-height: 850px;
 }
 
+/* LEFTSIDE MAIN1 */
 .main1-left{
     width: 35%;
     color: #484889;
@@ -262,6 +267,7 @@
     padding-bottom: 30px;
 }
 
+/* MAIN2 */
 .main2{
     width:  100%;
     height: 500px;
