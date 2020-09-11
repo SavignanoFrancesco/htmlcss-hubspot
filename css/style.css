@@ -11,10 +11,11 @@
 } */
 
 .wrapper{
-    width: 100vw;
+    width: 100%;
 }
 
 .container{
+    font-family: 'Raleway', sans-serif;
     width: 70%;
     /* height: 500px; */
     margin: auto;
@@ -24,25 +25,46 @@
 .fixed-header{
     width: 100%;
     background-color: #ecf2f9;
+    position: fixed;
 }
 
 .left-hf{
     width: 30%;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .language{
+    max-width: 50%;
     float: left;
     padding: 30px 35px;
     padding-left: 0;
+    font-weight: bold;
 }
 
+.language a{
+    color: #48489D;
+    text-decoration: none;
+}
+
+.border{
+    float: left;
+    margin-top: 25px;
+    width: 1px;
+    height: 30px;
+    border-left: 2px solid lightgrey;
+}
 .contact-sales{
+    max-width: 50%;
     float: left;
     padding: 30px 35px;
     padding-right: 0;
-    border-left: 1px solid lightgrey;
+    font-weight: bold;
+}
+
+.contact-sales a{
+    color: #48489D;
+    text-decoration: none;
 }
 
 .left-hf::after{
@@ -52,38 +74,47 @@
 }
 
 .right-hf{
+    /* background-color: green; */
     width: 30%;
     float: right;
-    background-color: red;
-}
-
-.search-icon{
-    float: left;
-    padding: 30px 25px;
-}
-
-.login{
-    float: left;
-    padding: 30px 10px;
-}
-
-.login a{
-    padding: 5px;
-    border: 1px solid orange;
-    border-radius: 5px;
-    color: orange;
+    /* background-color: red; */
 }
 
 .hubspotfree{
-    float: left;
-    padding: 30px 35px;
+    float: right;
+    padding: 30px 15px;
+}
+
+.login{
+    float: right;
+    padding: 30px 15px;
+}
+
+.login a{
+    padding: 10px;
+    border: 1px solid #e64d00;
+    border-radius: 5px;
+    color: #e64d00;
+    text-decoration: none;
+    background-color: white
+}
+
+.search-icon{
+    float: right;
+    padding: 30px 15px;
+}
+
+.search-icon a{
+    color: #2eb8b8;
 }
 
 .hubspotfree a{
-    padding: 5px 1px;
-    border: 1px solid orange;
+    padding: 10px;
+    border: 1px solid #e64d00;
     border-radius: 5px;
-    background-color: orange;
+    background-color: #e64d00;
+    text-decoration: none;
+    color: white;
 }
 
 .right-hf::after{
@@ -100,6 +131,7 @@
 
 .header1{
     width: 100%;
+    padding-top: 78px;
 }
 
 .h1{
@@ -116,7 +148,7 @@
     width: 30%;
     padding:22px 0;
     float: left;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .left-logo img{
@@ -126,7 +158,8 @@
 
 .right-menu{
     float: right;
-    background-color: green;
+    /* background-color: green; */
+    font-weight: bold;
     display: inline-block;
 }
 
@@ -137,22 +170,37 @@
 }
 
 .right-menu div{
-    padding: 30px 20px;
+    padding: 30px 15px;
     float: left;
+    color: #48489D;
+}
+
+.right-menu i{
+    color: #ccd9ff;
 }
 
 .header2{
+        background-color: #48489D;
+}
+
+.h2{
     width: 100%;
-    padding: 30px 0;
-    padding-left: 40px;
+    padding: 25px 12px;
     font-size: 20px;
+}
+
+.header2 p{
+    margin: 0 20px;
     color: white;
-    background-color: #2b5688;
+}
+
+.header2 a{
+    color: white;
 }
 
 .main1{
     width: 100%;
-    height: 750px;
+    /* height: 750px; */
     background-image: url("../img/main1.png");
     background-size: cover;
     border-bottom: 3px solid black;
@@ -160,11 +208,14 @@
 
 .main1-left{
     width: 35%;
+    color: #484889;
+    padding-bottom: 220px;
 }
 
 .main1-left h1{
     font-size: 45px;
-    padding-top: 100px;
+    padding-top: 50px;
+    font-weight: bolder;
 }
 
 .main1-left p{
@@ -173,13 +224,16 @@
 }
 
 .hubspotfree2{
-    padding:40px 0;
+    padding:40px 0 20px 0;
+
 }
 .hubspotfree2 a{
     padding: 20px 10px;
-    border: 1px solid orange;
+    border: 1px solid #e64d00;
     border-radius: 5px;
-    background-color: orange;
+    background-color: #e64d00;
+    text-decoration: none;
+    color: white;
 }
 
 .shorter-p{
@@ -188,6 +242,7 @@
 
 .shorter-p p{
     font-size: 18px;
+    padding-bottom: 30px;
 }
 
 .main2{
