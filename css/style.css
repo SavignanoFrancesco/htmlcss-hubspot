@@ -17,7 +17,7 @@
 
 .container{
     font-family: 'Raleway', sans-serif;
-    width: 70%;
+    width: 75%;
     /* height: 500px; */
     margin: auto;
     /* background-color: rgba(255, 0, 255, 0.5); */
@@ -56,7 +56,7 @@
 }
 
 .language a{
-    color: #48489D;
+    color: #425b76;
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .contact-sales a{
-    color: #48489D;
+    color: #425b76;
     text-decoration: none;
 }
 
@@ -183,7 +183,7 @@
 .right-menu div{
     padding: 30px 15px;
     float: left;
-    color: #48489D;
+    color: #425b76;
 }
 
 .right-menu i{
@@ -191,7 +191,7 @@
 }
 
 .header2{
-        background-color: #48489D;
+    background-color: #425b76;
 }
 
 
@@ -244,6 +244,7 @@
     padding:40px 0 20px 0;
 
 }
+
 .hubspotfree2 a{
     padding: 20px 10px;
     border: 1px solid #e64d00;
@@ -270,9 +271,65 @@
 /* MAIN2 */
 .main2{
     width:  100%;
-    height: 500px;
     background-color: #ecf2f9;
 }
+
+.m2{
+    width: 100%;
+    background-color: red;
+}
+
+.m2::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.text p{
+    padding-top: 10px;
+}
+
+.grill{
+    width:33.333333%;
+    padding: 40px;
+    float: left;
+    border: 1px solid black;
+}
+
+.box{
+    background-color: white;
+    padding: 30px  50px;
+    border: 1px solid black;
+    min-height: 400px;
+}
+
+.box h2{
+    padding-bottom: : 10px;
+    font-size: 20px;
+}
+
+.box li{
+    padding: 5px 5px;
+}
+
+
+.button-m2{
+    padding-top: 40px;
+}
+
+.button-m2 a{
+    padding: 20px 10px;
+    border: 1px solid #e64d00;
+    border-radius: 5px;
+    background-color: #e64d00;
+    text-decoration: none;
+    color: white;
+}
+
+.box2{
+    border-top: 1px solid black;
+}
+
 
 .main3{
     width:  100%;
