@@ -28,6 +28,7 @@
     width: 100%;
     background-color: #ecf2f9;
     position: fixed;
+    z-index: 9999;
 }
 
 .fixed-header::after{
@@ -271,12 +272,12 @@
 /* MAIN2 */
 .main2{
     width:  100%;
-    background-color: #ecf2f9;
+    background-color: whitesmoke;
+    color: #33475b;
 }
 
 .m2{
     width: 100%;
-    background-color: red;
 }
 
 .m2::after{
@@ -287,19 +288,24 @@
 
 .text p{
     padding-top: 10px;
+    font-size: 20px;
 }
 
 .grill{
     width:33.333333%;
     padding: 40px;
     float: left;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+.grill h1{
+    font-size: 35px;
 }
 
 .box{
     background-color: white;
     padding: 30px  50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-height: 400px;
 }
 
@@ -308,23 +314,72 @@
     font-size: 20px;
 }
 
-.box li{
-    padding: 5px 5px;
+.box h4{
+    padding-top: 10px;
 }
 
+.box p{
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.box li{
+    font-size: 15px;
+    padding: 5px 5px;
+    list-style-type: none;
+}
+
+.box li:before {
+  content: '✔';
+  font-size: 10px;
+  padding: 4px 6px;;
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.new{
+    position: relative;
+}
+
+.new-icon{
+    padding: 3px;
+    color: white;
+    background-color: #00bda5;
+    font-size: 13px;
+    position: absolute;
+    right: -5px;
+    top: 5px;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.box:hover{
+    box-shadow: 0px 5px 42px -1px black;
+}
 
 .button-m2{
     padding-top: 40px;
+    width: 100%;
 }
 
 .button-m2 a{
-    padding: 20px 10px;
+    width: 100%;
+    padding: 20px 40px;;
     border: 1px solid #e64d00;
     border-radius: 5px;
     background-color: #e64d00;
     text-decoration: none;
     color: white;
 }
+
+.button-m2 a:hover{
+    background-color: rgba(253, 136, 0, 0.3);
+    border: 1px solid rgba(253, 136, 0, 0.3);
+}
+
 
 .box2{
     border-top: 1px solid black;
